@@ -5,5 +5,7 @@ public class Zarina {
         String name ="Zarina";
         int age =36;
         double salary=111.1;
+        boolean hasCar = false;
+        String chickenName="Nugget";
     }
 }
