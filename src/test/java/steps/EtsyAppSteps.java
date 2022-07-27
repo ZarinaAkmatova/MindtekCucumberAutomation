@@ -20,7 +20,6 @@ public class EtsyAppSteps {
     EtsyAppHomePage etsyAppHomePage = new EtsyAppHomePage();
     EtsySearchResultsPage etsySearchResultsPage = new EtsySearchResultsPage();
 
-
     @Given("user navigates to the Etsy application")
     public void user_navigates_to_the_Etsy_application() {
         driver.get(ConfigReader.getProperty("EtsyAppURL"));
@@ -31,7 +30,6 @@ public class EtsyAppSteps {
     public void user_searches_for(String itemName) {
         etsyAppHomePage.searchBox.sendKeys(itemName + Keys.ENTER);
 
-
     }
 
     @When("user applies price filter over {int}")
@@ -39,7 +37,6 @@ public class EtsyAppSteps {
         etsySearchResultsPage.allFiltersButton.click();
         etsySearchResultsPage.priceRadioButton.click();
         etsySearchResultsPage.applyButton.click();
-
 
     }
 

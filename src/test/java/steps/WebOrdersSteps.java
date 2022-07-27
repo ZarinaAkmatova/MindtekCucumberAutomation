@@ -8,7 +8,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import pages.PizzaAppPage;
 import pages.WebOrdersHomePage;
 import pages.WebOrdersLoginPage;
 import pages.WebOrdersOrderPage;

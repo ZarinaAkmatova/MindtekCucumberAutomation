@@ -1,5 +1,4 @@
 package runner;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -10,8 +9,9 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json","rerun:target/rerun.txt"},
         features ="src/test/resources/features",
         glue = "steps",
-        tags="@MB4-170",
+        tags="@MB4-502",
         dryRun = false
+
 )
 public class Runner {
 

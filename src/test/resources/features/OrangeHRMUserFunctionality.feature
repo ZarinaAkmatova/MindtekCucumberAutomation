@@ -17,13 +17,10 @@ Feature: Validating select and edit add row timesheet functionalities
       | Username   | User Role   | Employee Name   | Status   |
       | <Username> | <User Role> | <Employee Name> | <Status> |
     And validate user is shown
-
+    And validates error "No record found" message
     Examples:
       | Username    | User Role | Employee Name | Status  |
       | Aaliyah.Haq | ESS       | Admin A       | Enabled |
-
-    And validates error "No record found" message
-
 
 
 
